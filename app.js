@@ -18,7 +18,7 @@ app.get('/products', (req, res) => {
     { productId: '101', price: 100 },
     { productId: '102', price: 150 }
   ]);
-});
+}); 
 
 app.listen(port, () => {
   console.log(`Demo app is up and listening on port: ${port}`);

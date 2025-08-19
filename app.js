@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT;
 
 app.get('/', (req, res) => {
-  res.send('<h1>NODE Demo App</h1> <h4>Message: Success</h4> <p>Version 1.1</p>');
+  res.send('<h1>Nauman Demo App</h1> <h4>Message: Success</h4> <p>Version 1.1</p>');
 });
 
 app.get('/products', (req, res) => {

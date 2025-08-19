@@ -17,5 +17,5 @@ else
     echo "Starting new PM2 process"
     pm2 start "npm start" --name node-app --update-env
 fi
-pm2 save
+pm2 save 
 EOF
